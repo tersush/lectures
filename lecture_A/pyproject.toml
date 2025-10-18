@@ -1,0 +1,16 @@
+[project]
+name = "lecture-a"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numba>=0.62.1",
+    "numpy>=2.3.4",
+    "pydantic>=2.12.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]

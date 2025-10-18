@@ -1,0 +1,2 @@
+from my_package.hello import hello_from_hello
+hgvk
